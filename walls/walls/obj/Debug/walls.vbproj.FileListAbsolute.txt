@@ -1,0 +1,378 @@
+C:\קבצים שלי\תכנות\html\walls\walls\bin\walls.dll.config
+C:\קבצים שלי\תכנות\html\walls\walls\bin\walls.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\walls.pdb
+C:\קבצים שלי\תכנות\html\walls\walls\bin\walls.xml
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\csc.exe
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\csc.exe.config
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\csc.rsp
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\csi.exe
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\csi.exe.config
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\csi.rsp
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\Microsoft.Managed.Core.targets
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\System.AppContext.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\System.Collections.Immutable.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\System.Console.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\System.Globalization.Calendars.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\System.IO.Compression.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\System.IO.FileSystem.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\System.Net.Http.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\System.Net.Sockets.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\System.Reflection.Metadata.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\System.ValueTuple.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\System.Xml.XmlDocument.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\System.Xml.XPath.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\vbc.exe
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\vbc.exe.config
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\vbc.rsp
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\VBCSCompiler.exe
+C:\קבצים שלי\תכנות\html\walls\walls\bin\roslyn\VBCSCompiler.exe.config
+C:\קבצים שלי\תכנות\html\walls\walls\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\קבצים שלי\תכנות\html\walls\walls\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\קבצים שלי\תכנות\html\walls\walls\obj\Debug\walls.vbprojAssemblyReference.cache
+C:\קבצים שלי\תכנות\html\walls\walls\obj\Debug\walls.Resources.resources
+C:\קבצים שלי\תכנות\html\walls\walls\obj\Debug\walls.vbproj.GenerateResource.cache
+C:\קבצים שלי\תכנות\html\walls\walls\obj\Debug\walls.vbproj.CoreCompileInputs.cache
+C:\קבצים שלי\תכנות\html\walls\walls\obj\Debug\walls.vbproj.CopyComplete
+C:\קבצים שלי\תכנות\html\walls\walls\obj\Debug\walls.dll
+C:\קבצים שלי\תכנות\html\walls\walls\obj\Debug\walls.xml
+C:\קבצים שלי\תכנות\html\walls\walls\obj\Debug\walls.pdb
+E:\אאא_צכנוצ\html\walls\walls\bin\walls.dll.config
+E:\אאא_צכנוצ\html\walls\walls\bin\walls.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\walls.pdb
+E:\אאא_צכנוצ\html\walls\walls\bin\walls.xml
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\csc.exe
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\csc.exe.config
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\csc.rsp
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\csi.exe
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\csi.exe.config
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\csi.rsp
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.Managed.Core.targets
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.AppContext.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Collections.Immutable.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Console.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Globalization.Calendars.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.IO.Compression.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.IO.FileSystem.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Net.Http.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Net.Sockets.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Reflection.Metadata.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.ValueTuple.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Xml.XmlDocument.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Xml.XPath.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\vbc.exe
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\vbc.exe.config
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\vbc.rsp
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\VBCSCompiler.exe
+E:\אאא_צכנוצ\html\walls\walls\bin\roslyn\VBCSCompiler.exe.config
+E:\אאא_צכנוצ\html\walls\walls\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\אאא_צכנוצ\html\walls\walls\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\אאא_צכנוצ\html\walls\walls\obj\Debug\walls.vbprojAssemblyReference.cache
+E:\אאא_צכנוצ\html\walls\walls\obj\Debug\walls.Resources.resources
+E:\אאא_צכנוצ\html\walls\walls\obj\Debug\walls.vbproj.GenerateResource.cache
+E:\אאא_צכנוצ\html\walls\walls\obj\Debug\walls.vbproj.CoreCompileInputs.cache
+E:\אאא_צכנוצ\html\walls\walls\obj\Debug\walls.vbproj.CopyComplete
+E:\אאא_צכנוצ\html\walls\walls\obj\Debug\walls.dll
+E:\אאא_צכנוצ\html\walls\walls\obj\Debug\walls.xml
+E:\אאא_צכנוצ\html\walls\walls\obj\Debug\walls.pdb
+D:\אאא_צכנוצ\html\walls\walls\bin\walls.dll.config
+D:\אאא_צכנוצ\html\walls\walls\bin\walls.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\walls.pdb
+D:\אאא_צכנוצ\html\walls\walls\bin\walls.xml
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\csc.exe
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\csc.exe.config
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\csc.rsp
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\csi.exe
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\csi.exe.config
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\csi.rsp
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.Managed.Core.targets
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.AppContext.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Collections.Immutable.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Console.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Globalization.Calendars.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.IO.Compression.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.IO.FileSystem.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Net.Http.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Net.Sockets.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Reflection.Metadata.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.ValueTuple.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Xml.XmlDocument.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Xml.XPath.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\vbc.exe
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\vbc.exe.config
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\vbc.rsp
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\VBCSCompiler.exe
+D:\אאא_צכנוצ\html\walls\walls\bin\roslyn\VBCSCompiler.exe.config
+D:\אאא_צכנוצ\html\walls\walls\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\אאא_צכנוצ\html\walls\walls\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\אאא_צכנוצ\html\walls\walls\obj\Debug\walls.vbprojAssemblyReference.cache
+D:\אאא_צכנוצ\html\walls\walls\obj\Debug\walls.Resources.resources
+D:\אאא_צכנוצ\html\walls\walls\obj\Debug\walls.vbproj.GenerateResource.cache
+D:\אאא_צכנוצ\html\walls\walls\obj\Debug\walls.vbproj.CoreCompileInputs.cache
+D:\אאא_צכנוצ\html\walls\walls\obj\Debug\walls.vbproj.CopyComplete
+D:\אאא_צכנוצ\html\walls\walls\obj\Debug\walls.dll
+D:\אאא_צכנוצ\html\walls\walls\obj\Debug\walls.xml
+D:\אאא_צכנוצ\html\walls\walls\obj\Debug\walls.pdb
+C:\Users\user\Desktop\walls\walls\bin\walls.dll.config
+C:\Users\user\Desktop\walls\walls\bin\walls.dll
+C:\Users\user\Desktop\walls\walls\bin\walls.pdb
+C:\Users\user\Desktop\walls\walls\bin\walls.xml
+C:\Users\user\Desktop\walls\walls\bin\roslyn\csc.exe
+C:\Users\user\Desktop\walls\walls\bin\roslyn\csc.exe.config
+C:\Users\user\Desktop\walls\walls\bin\roslyn\csc.rsp
+C:\Users\user\Desktop\walls\walls\bin\roslyn\csi.exe
+C:\Users\user\Desktop\walls\walls\bin\roslyn\csi.exe.config
+C:\Users\user\Desktop\walls\walls\bin\roslyn\csi.rsp
+C:\Users\user\Desktop\walls\walls\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user\Desktop\walls\walls\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\user\Desktop\walls\walls\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user\Desktop\walls\walls\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\System.AppContext.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\System.Console.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\System.IO.Compression.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\System.Net.Http.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\System.Net.Sockets.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\System.ValueTuple.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\System.Xml.XPath.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\user\Desktop\walls\walls\bin\roslyn\vbc.exe
+C:\Users\user\Desktop\walls\walls\bin\roslyn\vbc.exe.config
+C:\Users\user\Desktop\walls\walls\bin\roslyn\vbc.rsp
+C:\Users\user\Desktop\walls\walls\bin\roslyn\VBCSCompiler.exe
+C:\Users\user\Desktop\walls\walls\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user\Desktop\walls\walls\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\Desktop\walls\walls\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\Desktop\walls\walls\obj\Debug\walls.vbprojAssemblyReference.cache
+C:\Users\user\Desktop\walls\walls\obj\Debug\walls.Resources.resources
+C:\Users\user\Desktop\walls\walls\obj\Debug\walls.vbproj.GenerateResource.cache
+C:\Users\user\Desktop\walls\walls\obj\Debug\walls.vbproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\walls\walls\obj\Debug\walls.vbproj.CopyComplete
+C:\Users\user\Desktop\walls\walls\obj\Debug\walls.dll
+C:\Users\user\Desktop\walls\walls\obj\Debug\walls.xml
+C:\Users\user\Desktop\walls\walls\obj\Debug\walls.pdb
+I:\אאא_צכנוצ\html\walls\walls\bin\walls.dll.config
+I:\אאא_צכנוצ\html\walls\walls\bin\walls.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\walls.pdb
+I:\אאא_צכנוצ\html\walls\walls\bin\walls.xml
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\csc.exe
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\csc.exe.config
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\csc.rsp
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\csi.exe
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\csi.exe.config
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\csi.rsp
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.CSharp.Core.targets
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.Managed.Core.targets
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.VisualBasic.Core.targets
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\Microsoft.Win32.Primitives.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.AppContext.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Collections.Immutable.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Console.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Diagnostics.StackTrace.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Globalization.Calendars.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.IO.Compression.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.IO.Compression.ZipFile.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.IO.FileSystem.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.IO.FileSystem.Primitives.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Net.Http.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Net.Sockets.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Reflection.Metadata.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Security.Cryptography.Encoding.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Security.Cryptography.Primitives.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Text.Encoding.CodePages.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Threading.Tasks.Extensions.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.ValueTuple.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Xml.ReaderWriter.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Xml.XmlDocument.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Xml.XPath.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\System.Xml.XPath.XDocument.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\vbc.exe
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\vbc.exe.config
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\vbc.rsp
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\VBCSCompiler.exe
+I:\אאא_צכנוצ\html\walls\walls\bin\roslyn\VBCSCompiler.exe.config
+I:\אאא_צכנוצ\html\walls\walls\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+I:\אאא_צכנוצ\html\walls\walls\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+I:\אאא_צכנוצ\html\walls\walls\obj\Debug\walls.vbprojAssemblyReference.cache
+I:\אאא_צכנוצ\html\walls\walls\obj\Debug\walls.Resources.resources
+I:\אאא_צכנוצ\html\walls\walls\obj\Debug\walls.vbproj.GenerateResource.cache
+I:\אאא_צכנוצ\html\walls\walls\obj\Debug\walls.vbproj.CoreCompileInputs.cache
+I:\אאא_צכנוצ\html\walls\walls\obj\Debug\walls.vbproj.CopyComplete
+I:\אאא_צכנוצ\html\walls\walls\obj\Debug\walls.dll
+I:\אאא_צכנוצ\html\walls\walls\obj\Debug\walls.xml
+I:\אאא_צכנוצ\html\walls\walls\obj\Debug\walls.pdb
+D:\walls\walls\bin\walls.dll.config
+D:\walls\walls\bin\walls.dll
+D:\walls\walls\bin\walls.pdb
+D:\walls\walls\bin\walls.xml
+D:\walls\walls\bin\roslyn\csc.exe
+D:\walls\walls\bin\roslyn\csc.exe.config
+D:\walls\walls\bin\roslyn\csc.rsp
+D:\walls\walls\bin\roslyn\csi.exe
+D:\walls\walls\bin\roslyn\csi.exe.config
+D:\walls\walls\bin\roslyn\csi.rsp
+D:\walls\walls\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\walls\walls\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\walls\walls\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\walls\walls\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\walls\walls\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\walls\walls\bin\roslyn\Microsoft.Managed.Core.targets
+D:\walls\walls\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\walls\walls\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\walls\walls\bin\roslyn\System.AppContext.dll
+D:\walls\walls\bin\roslyn\System.Collections.Immutable.dll
+D:\walls\walls\bin\roslyn\System.Console.dll
+D:\walls\walls\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\walls\walls\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\walls\walls\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\walls\walls\bin\roslyn\System.Globalization.Calendars.dll
+D:\walls\walls\bin\roslyn\System.IO.Compression.dll
+D:\walls\walls\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\walls\walls\bin\roslyn\System.IO.FileSystem.dll
+D:\walls\walls\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\walls\walls\bin\roslyn\System.Net.Http.dll
+D:\walls\walls\bin\roslyn\System.Net.Sockets.dll
+D:\walls\walls\bin\roslyn\System.Reflection.Metadata.dll
+D:\walls\walls\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\walls\walls\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\walls\walls\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\walls\walls\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\walls\walls\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\walls\walls\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\walls\walls\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\walls\walls\bin\roslyn\System.ValueTuple.dll
+D:\walls\walls\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\walls\walls\bin\roslyn\System.Xml.XmlDocument.dll
+D:\walls\walls\bin\roslyn\System.Xml.XPath.dll
+D:\walls\walls\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\walls\walls\bin\roslyn\vbc.exe
+D:\walls\walls\bin\roslyn\vbc.exe.config
+D:\walls\walls\bin\roslyn\vbc.rsp
+D:\walls\walls\bin\roslyn\VBCSCompiler.exe
+D:\walls\walls\bin\roslyn\VBCSCompiler.exe.config
+D:\walls\walls\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\walls\walls\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\walls\walls\obj\Debug\walls.vbprojAssemblyReference.cache
+D:\walls\walls\obj\Debug\walls.Resources.resources
+D:\walls\walls\obj\Debug\walls.vbproj.GenerateResource.cache
+D:\walls\walls\obj\Debug\walls.vbproj.CoreCompileInputs.cache
+D:\walls\walls\obj\Debug\walls.vbproj.CopyComplete
+D:\walls\walls\obj\Debug\walls.dll
+D:\walls\walls\obj\Debug\walls.xml
+D:\walls\walls\obj\Debug\walls.pdb

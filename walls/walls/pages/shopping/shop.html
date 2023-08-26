@@ -1,0 +1,1724 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>walls | קניות      </title>
+    <link href="shop.css" rel="stylesheet" />
+    <link href="galery.css" rel="stylesheet" />
+    <link href="../general footer.css" rel="stylesheet" />
+    <link href="living/side_nav.css" rel="stylesheet" />
+    <script src="stars/play.js"></script>
+
+    <script>
+        var myWrapper;
+
+        //  גילוי התמונה הגדולה
+
+        function ShowBig(Obj) {
+            //אובייקט התמונה שנלחצה - Obj
+            myWrapper = document.querySelector('#Wrapper');   // X שמכיל את התמונה ואת ה div ה
+            var myBigImg = document.querySelector('#BigImg');
+            myBigImg.src = Obj.getAttribute('src');  /*העתקת קובץ המקור מהתמונה שנלחצה*/
+            myWrapper.style.display = "inline"; /* X + הצגת האלמנט שמכיל תמונה */
+            document.querySelector("#AllBody").style.filter = "grayscale(100 %)";
+        }
+
+        //  הסתרת התמונה הגדולה
+
+        function HideBig() {
+            myWrapper.style.display = "none";  /* X + הסתרת האלמנט שמכיל תמונה */
+            document.querySelector("#AllBody").style.filter = "none";
+        }
+    </script>
+    <style>
+        /*הגדרות לתמונה הגדולה*/
+        @media screen and (min-width: 600px) {
+            #Wrapper {
+                box-sizing: border-box; /* border רוחב-גובה האלמנט - כולל */
+                width: 100%;
+                height: 100%;
+                /**/ display: none; /*; לא נראה בתחילה*/
+                position: fixed;
+                background-color: transparent;
+                top: 0px;
+                z-index: 200;
+                text-align: center;
+            }
+
+
+            #BigImg {
+                position: absolute;
+                top: 20%;
+                left: 25%;
+                width: auto;
+                height: 50%;
+                z-index: 201;
+                padding: 16px;
+                border: 2px solid #fff;
+            }
+
+            #divBig {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: black;
+                opacity: 0.8;
+            }
+
+            #WrapperIMG {
+                color:white;
+                border-radius: 0;
+                text-align: center;
+                width: 400px;
+                height: auto;
+                margin: auto;
+/*                background-color: #ffffff;*/
+                z-index: 205;
+                border-color: #d50000;
+                position: absolute;
+                top: 81%;
+                left: 32%;
+                font-family:'Segoe UI';
+                padding-bottom:5px;
+                font-size:18pt;
+            }
+        }
+
+        #x {
+            border-radius: 26px;
+            width: 30px;
+            position: absolute;
+            top: 14%;
+            left: 25%;
+            z-index: 202;
+        }
+
+            #x:hover {
+                opacity: 0.6;
+            }
+
+        @media screen and (max-width: 600px) {
+            #Wrapper {
+                box-sizing: border-box; /* border רוחב-גובה האלמנט - כולל */
+                width: 100%;
+                height: 100%;
+                display: none; /*לא נראה בתחילה*/
+                /*            border: 3px solid #097021;*/
+                position: fixed;
+                background-color: transparent;
+                top: 0px;
+                z-index: 200;
+                text-align: center;
+            }
+
+
+            #BigImg {
+                position: absolute;
+                top: 27%;
+                left: 4%;
+                width: auto;
+                height: 31%;
+                z-index: 201;
+                padding: 16px;
+                border: 2px solid #fff;
+            }
+
+            #divBig {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                background-color: black;
+                opacity: 0.8;
+            }
+
+            #x {
+                border-radius:26px;
+                width: 30px;
+                position: absolute;
+                top: 21%;
+                left: 4%;
+                /*                        top: 150px;
+                        right: 7px;*/
+                z-index: 202;
+            }
+
+            #WrapperIMG {
+                color: white;
+                border-radius: 0;
+    /*            text-align: center;*/
+                width: 400px;
+                height: auto;
+                margin: auto;
+                /*                background-color: #ffffff;*/
+                z-index: 205;
+                border-color: #d50000;
+                position: absolute;
+                top: 70%;
+                left: 0%;
+                font-family: 'Segoe UI';
+                padding-bottom: 5px;
+                font-size: 12pt;
+            }
+        }
+    </style>
+</head>
+
+<body >
+
+    <!--<video  >
+
+        <source src="../Audio/open.mp3" type="audio/mpeg" />
+    </video><br />-->
+    <section id="AllBody">
+
+
+        <div id="myDiv1"></div><!--בשביל הרווח-->
+        <div class="text_top">
+            <h1>Walls.</h1>
+            רשת walls מתמחה באביזרים משלימים לעיצוב הבית, בחנויות תוכלו למצוא החל מטכסטיל "להלבשת" הבית (וילונות, שטיחים,מפות שולחן, כריות נוי וכו') ועד לפריטי ריהוט משלים, אביזרי נוי ופרזול שיעניקו משמעות מיוחדת לעיצוב חדשני ועדכני משלל קולקציות שנבחרו בקפידה ע"י צוות המעצבות המוביל שלנו.
+            בחנויות תוכלו להיעזר בייעוץ "הום – סטיילינג" שיעניק הצוות, וכמובן ליהנות מתודעת שירות גבוהה להשלמת חווית הקניה.
+        </div>
+
+        <!--גלריה--------------------------------------------------------------------------------------------------------------------------->
+        <!--star----------------------->
+        <!--<div class="str">
+        <div class="starDiv">
+            <label for="toggle">Toggle</label>
+            <input type="checkbox" id="toggle" class="visually-hidden">
+            <span class="control-me"></span>
+        </div>
+    </div>-->
+
+        <div style="height:200px;background-color:white;">
+
+        </div>
+        <span class="roundy"></span>
+        <div class="div_nav">
+            <header id="header">
+                <nav class="links" style="--items: 7;">
+                    <a href="../1open/open.html">דף הבית📝</a>
+                    <a href="#Garden">חצר וגינה</a>
+                    <a href="#BabyRooms">חדרי תינוקות</a>
+                    <a href="#ChildrenRooms">חדרי ילדים</a>
+                    <a href="#Kitchens">מטבחים</a>
+                    <a href="#Living">חדרי מגורים</a>
+                    <a href="#Sleeping">חדרי שינה</a>
+                    <span class="line"></span>
+                </nav>
+            </header>
+        </div>
+        <nav class="menu">
+            <input type="checkbox" href="#" class="menu-open" name="menu-open" id="menu-open" />
+            <label class="menu-open-button" for="menu-open">
+                <span class="lines line-1"></span>
+                <span class="lines line-2"></span>
+                <span class="lines line-3"></span>
+            </label>
+
+            <a href="#BabyRooms" class="menu-item blue">
+                <img  class="icon_menu" src="iconsMenu/baby.png" />
+                <span class="title_top" id="bay">חדרי_תינוקות</span>
+            </a>
+            <a href="#ChildrenRooms" class="menu-item green">
+                <i class="fa fa-coffee"></i>
+                <img class="icon_menu" src="iconsMenu/teen.png" />
+                <span class="title_top" id="kid">חדרי_ילדים</span>
+            </a>
+            <a href="#Kitchens" class="menu-item red">
+                <i class="fa fa-heart"></i>
+                <img class="icon_menu" src="iconsMenu/kitchen.png" />
+                <span class="title_top">מטבחים</span>
+            </a>
+            <a href="#Living" class="menu-item purple">
+                <i class="fa fa-microphone"></i>
+                <img class="icon_menu" src="iconsMenu/living.png" />
+                <span class="title_top">חדרי_מגורים</span>
+            </a>
+            <a href="#Sleeping" class="menu-item orange">
+                <i class="fa fa-star"></i>
+                <img class="icon_menu" src="iconsMenu/sleep.png" />
+                <span class="title_top" id="sle">חדרי_שינה</span>
+            </a>
+            <a href="#Garden" class="menu-item lightblue">
+                <i class="fa fa-diamond"></i>
+                <img class="icon_menu" src="iconsMenu/garden.png" />
+                <span class="title_top" id="gar">ריהוט_לחצר</span>
+            </a>
+        </nav>
+        <div id="BabyRooms" style=" height: 68px">  </div>
+
+        <div class="painted">
+            <img class="iconPainted" src="painted/baby.png" />
+            <span>Baby Rooms</span>
+        </div>
+        <div class="line_top" id="p1"></div>
+
+        <div class="container1">
+            <section>
+                <img src="baby/bab1.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1> מיטת תינוק עץ מלא שחר</h1>
+                    <span>
+                        ₪800 <span>₪1000 </span>
+                    </span>
+                    <br />
+                    <!--<img src="icons/buying.jpg"  />-->
+                    <!--<img src="icons/buyicon.ico"/>-->
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <br />
+            <br />
+            <section>
+                <img src="baby/baby11 (3).jpg" onclick="ShowBig(this)" />
+                <div>
+
+                    <h1> שידה ירקון</h1>
+                    <span>
+                        ₪760 <span>  ₪500</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="baby/baby2 (2).jpg" onclick="ShowBig(this)" />
+                <div>
+                    <h1>מיטת תינוק +שידת קומותיים </h1>
+                    <span>
+                        ₪3000  <span> ₪2500 </span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+
+                </div>
+
+            </section>
+            <br />
+            <section>
+                <img src="baby/baby5 (3).jpg" onclick="ShowBig(this)" />
+                <div>
+                    <h1>עריסה לבנה עץ אלון </h1>
+                    <span>
+                        ₪800 <span>  ₪1550</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <br />
+            <section>
+                <img src="baby/baby5 (2).jpg" onclick="ShowBig(this)" />
+                <div>
+                    <h1> מיטת תינוק גדולה מתכווננת</h1>
+                    <span>
+                        ₪900 <span>₪1500  </span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <br />
+            <section>
+                <img src="baby/baby6 (2).jpg" onclick="ShowBig(this)" />
+                <div>
+                    <h1> מיטת תינוק +כסא </h1>
+                    <span>
+                        ₪799 <span> ₪1700 </span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <br />
+            <section>
+                <img src="baby/baby7.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1>עריסה מינימליסטית </h1>
+                    <span>
+                        ₪899<span>₪1500  </span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+
+                </div>
+            </section>
+            <br />
+            <section>
+                <img src="baby/baby8.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1> סט עריסה מינימליסטית +שידה</h1>
+                    <span>
+                        ₪1499<span> ₪1790 </span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <br />
+            <section>
+                <img src="baby/baby9 (2).jpg" onclick="ShowBig(this)" />
+                <div>
+                    <h1>שידת ארגון </h1>
+                    <span>
+                        ₪999<span> ₪1250</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+
+                </div>
+            </section>
+            <br />
+
+
+        </div>
+
+
+
+        <div id="ChildrenRooms" style=" height: 68px">  </div>
+        <div class="painted">
+            <img class="iconPainted" src="painted/kid.png" />
+            <span>Children Rooms</span>
+        </div>
+        <div class="line_top" id="p2"></div>
+
+        <div class="container2">
+            <section>
+
+                <img src="kids1/kid1 (2).jpg" onclick="ShowBig(this)" />
+                <div>
+                    <h1>מיטת פאר  </h1>
+
+                    <span>
+                        ₪3250 <span> ₪4000 </span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <br />
+            <section>
+
+                <img src="kids1/kid10 (2).png" onclick="ShowBig(this)" />
+                <div>
+                    <h1> ארון ורוד סיון</h1>
+
+                    <span>
+                        ₪1550 <span>  ₪2200</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <br />
+            <section>
+                <img src="kids1/kid12 (2).png" onclick="ShowBig(this)" />
+                <div>
+                    <h1> ארון 2 דלתות יהלום</h1>
+
+                    <span>
+                        ₪1250 <span>  ₪2800</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+
+
+
+
+            </section>
+            <section>
+
+                <img src="kids1/kid14 (2).png" onclick="ShowBig(this)" />
+                <div>
+                    <h1> מוט לתליית בגדים</h1>
+                    <span>
+                        ₪299  <span>  ₪490</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="kids1/kid13 (2).jpg" onclick="ShowBig(this)" />
+                <div>
+                    <h1>ארון בעיצוב של פעם</h1>
+                    <span>
+                        ₪1500 <span>₪2500</span>
+                    </span>
+                    <br />
+
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+
+            </section>
+            <section>
+
+                <img src="kids1/kid16 (2).jpg" onclick="ShowBig(this)" />
+                <div>
+                    <h1>ארון עמודים ספיר </h1>
+
+                    <span>
+                        ₪3000 <span> ₪4550 </span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+
+                <img src="kids1/kid17 (2).jpg" onclick="ShowBig(this)" />
+                <div>
+                    <h1> ארון עץ מלא שוהם</h1>
+                    <span>
+                        ₪1500 <span>  ₪1780</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+
+            </section>
+            <section>
+                <img src="kids1/kid18 (2).png" onclick="ShowBig(this)" />
+                <div>
+                    <h1>ארון 2 דלתות עץ אלון</h1>
+                    <span>
+                        ₪1700 <span> ₪2550 </span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+
+            </section>
+            <section>
+                <img src="kids1/kid2.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1>ארגונית למשחקים </h1>
+                    <span>
+                        ₪199 <span> ₪230 </span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+
+            </section>
+            <section>
+
+                <img src="kids1/kid5.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1>שידה ורודה יפית </h1>
+                    <span>
+                        ₪1500<span>  ₪3000</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+
+                <img src="kids1/kid6.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1>מיטה+ארגז אחסון </h1>
+                    <span>
+                        ₪2800 <span>₪3200  </span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+
+                <img src="kids1/kid7.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1> מתלים צבעוניים</h1>
+                    <span>
+                        ₪80 <span> ₪90 </span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="kids1/kid8.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1> מדף סהר</h1>
+                    <span>
+                        ₪500<span> ₪700 </span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </div>
+
+
+
+
+        <div id="Garden" style=" height: 68px">  </div>
+
+        <div class="painted">
+            <img class="iconPainted" src="painted/garden.png" />
+            <span>Garden &amp;Porches</span>
+        </div>
+        <div class="line_top" id="p3"></div>
+
+        <div class="container3">
+            <section>
+
+                <img src="garden 1/gar1.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1> שולחן סמית+4 כסאות</h1>
+                    <span>
+                        ₪2999<span>  ₪3200</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+
+                <img src="garden 1/gar22.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1> ערסל יחיד לבן שחר</h1>
+                    <span>
+                        ₪650 <span> ₪870 </span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+
+                <img src="garden 1/gar33.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1>ערסל יחיד חום שחר </h1>
+                    <span>
+                        ₪650 <span>  ₪870</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+
+            </section>
+            <section>
+
+                <img src="garden 1/gar44.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1> ערסל יחיד שחור שחר</h1>
+                    <span>
+                        ₪650 <span>  ₪870</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+
+
+            </section>
+            <section>
+
+                <img src="garden 1/gar6.jpg" onclick="ShowBig(this)" />
+                <div>
+                    <h1> מערכת ישיבה מרופדת נופך</h1>
+
+                    <span>
+                        ₪1500 <span> ₪2670 </span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+
+                <img src="garden 1/gar7.jpg" onclick="ShowBig(this)" />
+                <div>
+                    <h1> מערכת ישיבה מפוארת לשם</h1>
+                    <span>
+                        ₪1299 <span> ₪1570 </span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+
+                <img src="garden 1/gardw1.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1>ספה דו מושבית לחצר </h1>
+                    <span>
+                        ₪799 <span> ₪1280 </span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="garden 1/gardw3.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1>ספה תלת מושבית לחצר </h1>
+                    <span>
+                        ₪1000<span> ₪1350 </span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+        </div>
+
+
+
+
+        <div id="Sleeping" style=" height: 68px">  </div>
+
+        <div class="painted">
+            <img class="iconPainted" src="painted/sleep2.png" />
+            <span>Sleeping Rooms</span>
+        </div>
+        <div class="line_top" id="p4"></div>
+
+        <div class="container1">
+            <section>
+                <img src="sleep/room1.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1>מיטה פשוטה מזרון תרשיש</h1>
+                    <span>
+                        ₪899<span>₪1200  </span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+
+            </section>
+            <section>
+                <img src="sleep/sleep10.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1>מיטה דו קומתית יהל </h1>
+                    <span>
+                        ₪1570<span>  ₪2500</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="sleep/sleep2.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1>ארון 3 דלתות קו עדכני וחלק  </h1>
+                    <span>
+                        ₪2500<span> ₪3000 </span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="sleep/sleep3.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1> שידה חומה 3 דלתות</h1>
+                    <span>
+                        ₪1500 <span> ₪2000</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="sleep/sleep4.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1> מראה עגולה שוהם יבוא שוודי</h1>
+                    <span>
+                        ₪260 <span> ₪310</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="sleep/sleep5.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1>מיטה מפוארת+ראש מיטה </h1>
+                    <span>
+                        ₪1200 <span> ₪1550 </span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="sleep/sleep6.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1>מיטה זוגית אפורה קישון </h1>
+                    <span>
+                        ₪2500<span> ₪3199 </span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="sleep/sleep9.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1> מיטה מפוארת ירמות</h1>
+                    <span>
+                        ₪1800<span> ₪2800 </span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="sleep/sleep7.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1> מיטה נפתחת לאורחים חידקל</h1>
+                    <span>
+                        ₪1500 <span> ₪2000 </span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="sleep/sleep8.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1> מיטה זוגית צאלים</h1>
+                    <span>
+                        ₪3000 <span> ₪4250 </span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+        <div id="Living" style=" height: 68px">  </div>
+
+        <div class="painted">
+            <img class="iconPainted" src="painted/living.png" />
+            <span>Living Rooms</span>
+        </div>
+        <div class="line_top" id="p5"></div>
+        <div class="container2">
+            <section>
+                <img src="living/LIV11.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1>ספה דו מושבית</h1>
+                    <span>
+                        ₪2000<span>₪2699</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="living/LIV12 (2).jpg" onclick="ShowBig(this)" />
+                <div>
+                    <h1>שטיח מודרני לחדר מגורים</h1>
+                    <span>
+                        ₪755<span>₪980</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="living/LIV13 (2).jpg" onclick="ShowBig(this)" />
+                <div>
+                    <h1>כורסא מזרחית + הדום </h1>
+                    <span>
+                        ₪600<span>₪870</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="living/liv15 (2).jpg" onclick="ShowBig(this)" />
+                <div>
+                    <h1>ספות אירופאיות מעוצבות</h1>
+                    <span>
+                        ₪3500<span></span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="living/LIV6.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1>שידה פינתית לחדר אורחים</h1>
+                    <span>
+                        ₪500<span>₪790</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="living/LIV7.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1>ספות ריפוד סקאי לבן יוקרתי</h1>
+                    <span>
+                        ₪4000<span>₪4590</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="living/LIV8.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1>תאורה פינתית לפינות ישיבה</h1>
+                    <span>
+                        ₪890<span>₪990</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="living/LIV9.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1>ספות עור איטלקי עם ריקליינר</h1>
+                    <span>
+                        מחיר לא לפרסום!<span>  </span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+        <div id="Kitchens" style=" height: 68px">  </div>
+
+        <div class="painted">
+            <img class="iconPainted" src="painted/kit.png" />
+            <span>Kitchens</span>
+        </div>
+        <div class="line_top" id="p6"></div>
+        <div class="container3">
+            <section>
+                <img src="kitchen/kit (2).png" onclick="ShowBig(this)" />
+                <div>
+                    <h1>אי עבודה ציפוי פורמייקה </h1>
+                    <span>
+                        ₪2000<span>₪2670</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+            <section>
+                <img src="kitchen/kit15 (2).jpg" onclick="ShowBig(this)" />
+                <div>
+                    <h1>שולחן+4 כסאות בר ספיר</h1>
+                    <span>
+                        ₪1570<span>₪1700</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="kitchen/kit16 (2).jpg" onclick="ShowBig(this)" />
+                <div>
+                    <h1>שולחן+ 4 כסאות כפרי</h1>
+                    <span>
+                        ₪1200<span>₪1589</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="kitchen/kit17.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1>שולחן+ 4 כסאות כנרת</h1>
+                    <span>
+                        ₪1325<span>₪1700</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="kitchen/kit2.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1>  מגירות שושן טריקה שקטה</h1>
+                    <span>
+                        ₪5700<span>₪6270</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="kitchen/kit30.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1>כסא אוכל תינוק</h1>
+                    <span>
+                        ₪460<span>₪570</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="kitchen/kit4.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1>שולחן+ 4 כסאות דקל </h1>
+                    <span>
+                        ₪1735<span>₪2030</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="kitchen/kit40 (2).png" onclick="ShowBig(this)" />
+                <div>
+                    <h1>שידת עץ משולבת</h1>
+                    <span>
+                        ₪849<span>₪880</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="kitchen/kit44.png" onclick="ShowBig(this)" />
+                <div>
+                    <h1>כסא קלוע סגנון מזרחי</h1>
+                    <span>
+                        ₪229<span>  ₪300</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="kitchen/kit5 (2).png" onclick="ShowBig(this)" />
+                <div>
+                    <h1>כסא בר עץ מלא לבן</h1>
+                    <span>
+                        ₪400<span> ₪450</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="kitchen/kit6 (2).png" onclick="ShowBig(this)" />
+                <div>
+                    <h1>כסא בר לבן כסוף</h1>
+                    <span>
+                        ₪299<span>  ₪350</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+            <section>
+                <img src="kitchen/kitchen33 (2).jpg" onclick="ShowBig(this)" />
+                <div>
+                    <h1>סט כסאות בר פיבוניצי</h1>
+                    <span>
+                        ₪3000<span>  ₪4250</span>
+                    </span>
+                    <br />
+                    <a href="../pay/pay.html">
+                        <img src="icons/buybbb.png" class="icons" />
+                        <div class="toBuy">
+                            <br />
+                            להוספת המוצר לעגלת הקניות לחץ כאן
+                            <br />
+                            <br />
+
+                        </div>
+                    </a>
+                </div>
+            </section>
+
+
+
+
+
+
+
+
+
+
+
+        </div>
+
+
+        <!--<img src="../2home/wallsLogo.png" />-->
+        <!--footer-------------------------------------------------------------------------------------------------------------------->
+        <div class="containerFooter">
+            <div class="screen">
+                <div class="screen-header">
+                    <div class="screen-header-left">
+                        <div class="screen-header-button close"></div>
+                        <div class="screen-header-button maximize"></div>
+                        <div class="screen-header-button minimize"></div>
+                    </div>
+                    <div class="screen-header-right">
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                        <div class="screen-header-ellipsis"></div>
+                    </div>
+                </div>
+                <div class="screen-body">
+                    <div class="screen-body-item left">
+                        <div class="app-title">
+                            <span style="font-family:'Segoe UI Light'">עלינו</span>
+                            <span style="font-family:'Segoe UI Light'">קצת</span>
+                        </div>
+                        <div class="app-contact">
+                            <img class="footerIcon" src="../shopping/icons/phone1.ico" />077 222 05 05&nbsp;&nbsp;
+                            <br />
+                            <img class="footerIcon" src="../shopping/icons/location3.ico" />צאלים 17 רמת השרון&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                            <br />
+                            <img class="footerIcon" src="../shopping/icons/mail1.ico" /><a href="mailto:wallsdesign@cwe.co.il"> wallsdesign@cwe.co.il</a> &nbsp;
+                            <br />
+
+                        </div>
+
+                    </div>
+                    <div class="screen-body-item">
+                        <!--<span style="font-family:'Segoe UI Light'">מותגים</span>-->
+                        <br /><br />
+                        <img class="brands" src="../shopping/imgBrands/brand5.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img class="brands" src="../shopping/imgBrands/brands.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img class="brands" src="../shopping/imgBrands/brans2.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img class="brands" src="../shopping/imgBrands/brand11.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img class="brands" src="../shopping/imgBrands/brand13.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img class="brands" src="../shopping/imgBrands/brand15.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img class="brands" src="../shopping/imgBrands/brand14.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img class="brands" src="../shopping/imgBrands/brand21.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                        <img class="brands" src="../shopping/imgBrands/brand18.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    </div>
+
+                    <!--</div>-->
+                    <div class="screen-body-item">
+                        <div class="app-form">
+                            <input class="app-form-control" placeholder="שם" style="color: #808080; text-align: right">
+                        </div>
+                        <div class="app-form-group">
+                            <input class="app-form-control" placeholder="✉כתובת מייל" style="color: #808080; text-align: right">
+                        </div>
+                        <div class="app-form-group">
+                            <input class="app-form-control" type="password" maxlength="9" placeholder="...הסיסמא שלך" style="color: #808080; text-align: right">
+                        </div>
+                        <div class="app-form-group message">
+                            <input class="app-form-control" placeholder="...שאל את המומחים" style="color:#808080;text-align:right">
+                        </div>
+                        <div class="app-form-group buttons">
+                            <button type="reset" class="app-form-button">CANCEL</button>
+                            <button class="app-form-button">SEND</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="credits">
+
+            All rights saved
+            <a class="credits-link">
+                <svg class="dribbble" viewBox="0 0 200 200">
+                    <g stroke="#ffffff" fill="none">
+                        <circle cx="100" cy="100" r="90" stroke-width="20"></circle>
+                        <path d="M62.737004,13.7923523 C105.08055,51.0454853 135.018754,126.906957 141.768278,182.963345" stroke-width="20"></path>
+                        <path d="M10.3787186,87.7261455 C41.7092324,90.9577894 125.850356,86.5317271 163.474536,38.7920951" stroke-width="20"></path>
+                        <path d="M41.3611549,163.928627 C62.9207607,117.659048 137.020642,86.7137169 189.041451,107.858103" stroke-width="20"></path>
+                    </g>
+                </svg>
+                built by Yael And Tamar
+            </a>
+        </div>
+
+    </section>
+
+    <!--הגדרות לתמונה הגדולה-->
+    <div id="Wrapper">
+        <div id="divBig"></div>
+        <img  id="x" src="stars/xwhite.png" onclick="HideBig()" />
+        <!--<img src="icons/XXXRED.png" onclick="HideBig()" />-->
+        <!--<img id="x" src="icons/XXXP.png" onclick="HideBig()" />-->
+        <!--<img id="x" src="../Images/Icon/eventlogError.ico" onclick="HideBig()" />-->
+        <img id="BigImg" />
+
+        <section id="WrapperIMG">
+            <!--<img style="width:60px" src="../1open/pic/wallsLogo.png" />
+    <br />-->
+
+            <span style="color:white;font-size:20pt">walls</span><br>
+            !  מאחלת לכם המשך קנייה מהנה
+        </section>
+
+    </div>
+
+
+
+</body>
+</html>

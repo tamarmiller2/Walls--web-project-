@@ -1,0 +1,28 @@
+﻿footer{
+background-color:#e1e1e2;
+height:300px;
+width:100%;
+
+}
+
+
+.screen-body-item.left {
+    margin-bottom: 30px;
+}
+
+
+.iconPainted {
+    width: 100px;
+}
+.footerIcon{
+    width:25px;
+    height:auto;
+}
+.brands{
+    width:80px;
+}
+a{
+    text-decoration:none;
+ color:#808080;
+ font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

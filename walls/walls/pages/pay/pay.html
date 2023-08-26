@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>walls |  תשלום</title>
+    <link href="pay.css" rel="stylesheet" />
+    <link href="../shopping/living/side_nav.css" rel="stylesheet" />
+</head>
+<body>
+
+
+    <div class="div_nav" id="head" style="direction:ltr">
+        <header id="header">
+            <nav class="links" style="--items: 4;">
+                <a href="#head">...</a>
+                <a href="../cont/cont.html" style="        font-family: 'Segoe UI';
+        font-weight: bolder; font-size: 14pt">צור קשר</a>
+                <a href="../shopping/shop.html" style="        font-family: 'Segoe UI';
+        font-weight: bolder; font-size: 14pt">לקנייה</a>
+                <a href="../1open/open.html" style="font-family:'Segoe UI';font-weight:bolder;font-size:14pt">דף הבית</a>
+                <span class="line"></span>
+            </nav>
+        </header>
+    </div>
+    <div class="mainscreen">
+
+
+        <img class="round" src="48hours.jpg" />
+        <div class="card">
+            <div class="leftside">
+                <!--<img  src="paypic.png" />-->
+
+                <img style="width:100%" src="../shopping/living/LIV7.png" />
+            </div>
+            <div class="rightside">
+                <form action="">                    <h2>פרטי התשלום</h2>
+                    <p>שם בעל הכרטיס</p>
+                    <input type="text" class="inputbox" name="name" required />
+                    <p>מספר כרטיס</p>
+                    <input type="number" class="inputbox" name="card_number" id="card_number" required />
+
+                    <p>סוג הכרטיס</p>
+                    <select class="inputbox" name="card_type" id="card_type" required>
+                        <option value="">--בחירת סוג הכרטיס--</option>
+                        <option value="Visa">Visa</option>
+                        <option value="RuPay">RuPay</option>
+                        <option value="MasterCard">MasterCard</option>
+                    </select>
+                    <div class="expcvv">
+
+                        <p class="expcvv_text">תוקף הכרטיס</p>
+                        <input type="date" class="inputbox" name="exp_date" id="exp_date" required />
+
+                        <p class="expcvv_text2">CVV</p>
+                        <input type="password" class="inputbox" name="cvv" id="cvv" required />
+                    </div>
+                    <p></p>
+                    <button type="submit" class="button">שליחה</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+</html>

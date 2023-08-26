@@ -1,0 +1,498 @@
+﻿/*div{
+    padding:15px;
+}*/
+
+ .container1, .container2, .container3, .container4, .container5, .container6 {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 70%;
+    margin-left: 15%;
+    background-color:transparent;
+}
+
+div section img {
+    width: 100%;
+    border-radius: 20px 20px 0px 0px;
+}
+
+div section {
+    width: 20%;
+    height: 330px;
+    background-color: white;
+    border-radius: 22px;
+    margin-top: 10%;
+    margin-left: 30px;
+    margin-left: 30px;
+    vertical-align: middle;
+    -webkit-transition: width 1s, height 1s, border 1s;
+    transition: width 1s, height 1s;
+    background-color: transparent;
+}
+
+  div section:hover {
+        width: 21%;
+        height: 335px;
+        box-shadow: 0px 0px 20px -5px #888;
+   }
+.container1 section div h1 {
+
+    background-color: #d5b3a2;
+}
+.container2 section div h1 {
+    background-color:#99b8b3;
+}
+.container3 section div h1 {
+    background-color: #f0e288;
+}
+.container1 section div h1 {
+    background-color: #d5b3a2;
+}
+.container2 section div h1 {
+    background-color: #99b8b3;
+}
+.container3 section div h1 {
+    background-color: #f0e288;
+}
+
+#myDiv1 {
+    color: #8b3eae;
+    /*    background-image: url('kitchen/kit4.png');
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    scrollbar-arrow-color:aliceblue;*/
+    /*    background-image: -webkit-radial-gradient(center top,#d5b3a2 0%,white 73%);
+*/ height: 884px;
+    width: 100%;
+    /*    background-color: transparent;
+*/ background-color: #eeeeee;
+    background-image: url('painted/liv1.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    filter:brightness(0.5);
+    /**/
+}
+
+/*תחתית התמונה וקנייה
+*/
+.toBuy {
+
+    padding-top: 40px;
+     padding-left: 5px; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: aliceblue;
+    height: 10px;
+    width: auto;
+    background-color: #1e1e1e;
+    opacity: 0.6;
+    direction: rtl;
+    text-align: center;
+    visibility: hidden;
+    transition: height 0.3s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+    position: relative;
+    top: -270px;
+    border-top-right-radius: 21px;
+    border-top-left-radius: 21px;
+}
+.icons {
+    margin-top: 64px;
+    width: 50px;
+    height: 45px;
+    border-bottom-right-radius: 100%;
+    border-top-right-radius: 100%;
+    border-top-left-radius: 0px;
+    transition: width 0.2s;
+    -webkit-transition-timing-function: linear;
+    transition-timing-function: linear;
+}
+    .icons:hover {
+        width: 53px;
+    }
+        .icons:hover + .toBuy {
+            visibility: visible;
+            height: 180px;
+        }
+    .iconSmall {
+        width: 20px;
+    }
+h1 {
+    box-shadow: -1px 3px 11px grey;
+    background-color: #5f5f5f;
+    text-align: center;
+    margin: 9px auto;
+    /* margin-top: 9px; */
+    color: #ffffff;
+    font-size: 11pt;
+    /* margin-left: 20%; */
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    /* font-weight: bolder; */
+    text-shadow: 1px 1px 11px #333;
+    padding: 7px;
+}
+    section span {
+    text-align: center;
+    margin-top: 9px;
+    margin-left: 13px;
+    font-size: 12pt;
+
+    color: #1e1e1e;
+
+}
+span span {
+    text-decoration: line-through;
+    font-size: 11pt;
+    color: #1e1e1e;
+    float: right;
+    margin-right: 20px;
+    margin-top: 2px;
+}
+
+    @media screen and (max-width:1200px) {
+        .toBuy {
+            top: -282px;
+        }
+
+        div section {
+            height: 350px;
+            width: 27%;
+            margin-left: 2%;
+            margin-top: 15%;
+        }
+
+        section img {
+            width: 70%;
+        }
+
+        div section:hover {
+            width: 28%;
+            height: 355px;
+        }
+    }
+
+    @media screen and (max-width:985px) {
+/*        .toBuy {
+            top: -335px;
+        }*/
+        div section {
+            height:350px;
+            width: 46%;
+            margin-left: 2%;
+            margin-top: 15%;
+        }
+
+        section img {
+            width: 70%;
+        }
+
+        div section:hover {
+            width: 47%;
+        }
+    }
+
+    @media screen and (max-width: 640px) {
+        .icons {
+            margin-top: 55px;
+        }
+/*            .toBuy {
+            top: -400px;
+        }*/
+        div section {
+            height: 320px;
+            width: 70%;
+            margin-left: 15%;
+        }
+
+        section img {
+            width: 50%;
+        }
+
+        div section:hover {
+            width: 71%;
+            height: 330px;
+        }
+    }
+    /*footer-------------------------------------------------------------*/
+    button, input {
+    font-family: 'Montserrat','Segoe UI '
+    font-weight: 700;
+    letter-spacing: 1.4px;
+}
+
+/*.background {
+    display: flex;
+    min-height: 100vh;
+}*/
+
+.container {
+    flex: 0 1 700px;
+/*    margin: auto;*/
+    padding: 10px;
+}
+
+.screen {
+    position: relative;
+    background: #e7eaed;
+/*    border-radius: 0px;
+*/}
+
+    .screen:after {
+        content: '';
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 20px;
+        right: 20px;
+        bottom: 0;
+/*        border-radius: 5px;*/
+        box-shadow: 0 20px 40px rgba(0, 0, 0, .4);
+        z-index: -1;
+    }
+
+.screen-header {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background:#666;
+/*    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;*/
+}
+
+.screen-header-left {
+    margin-right: auto;
+}
+
+.screen-header-button {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 3px;
+    border-radius: 8px;
+    background: white;
+}
+
+    .screen-header-button.close {
+        background: #d5b3a2;
+    }
+
+    .screen-header-button.maximize {
+        background: #99b8b3;
+    }
+
+    .screen-header-button.minimize {
+        background: #d3b701;
+    }
+
+.screen-header-right {
+    display: none;
+}
+
+.screen-header-ellipsis {
+    width: 3px;
+    height: 3px;
+    margin-left: 2px;
+    border-radius: 8px;
+    background: #999;
+}
+
+.screen-body {
+    display: flex;
+}
+
+.screen-body-item {
+    flex: 1;
+    padding: 50px;
+}
+
+    .screen-body-item.left {
+        display: flex;
+        flex-direction: column;
+    }
+
+.app-title {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    color: #99b8b3;
+    font-size: 26px;
+}
+
+    .app-title:after {
+        content: '';
+        display: block;
+        position: absolute;
+        left: 0;
+        bottom: -10px;
+        width: 25px;
+        height: 4px;
+        background: #99b8b3;
+    }
+
+.app-contact {
+    margin-top: auto;
+    font-size: 12px;
+    color: #888;
+}
+
+.app-form-group {
+    margin-bottom: 15px;
+}
+
+    .app-form-group.message {
+        margin-top: 40px;
+    }
+
+    .app-form-group.buttons {
+        margin-bottom: 0;
+        text-align: right;
+    }
+
+.app-form-control {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #ddd;
+    font-size: 14px;
+    text-transform: uppercase;
+    outline: none;
+    transition: border-color .2s;
+}
+
+    .app-form-control::placeholder {
+        color: #666;
+    }
+
+    .app-form-control:focus {
+        border-bottom-color: #ddd;
+    }
+
+.app-form-button {
+    background: none;
+    border: none;
+    color: #99b8b3;
+    font-size: 14px;
+    cursor: pointer;
+    outline: none;
+}
+
+    .app-form-button:hover {
+        color: #00a889;
+    }
+
+.credits {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    color: #3e3e3e;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+}
+
+.credits-link {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.dribbble {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+@media screen and (max-width: 520px) {
+    .toBuy {
+        top: -302px;
+    }
+    .screen-body {
+        flex-direction: column;
+    }
+
+    .screen-body-item.left {
+        margin-bottom: 30px;
+    }
+
+    .app-title {
+        flex-direction: row;
+    }
+
+        .app-title span {
+            margin-right: 12px;
+        }
+
+        .app-title:after {
+            display: none;
+        }
+}
+
+@media screen and (max-width: 600px) {
+    .toBuy {
+        top: -280px;
+    }
+    .screen-body {
+        padding: 40px;
+    }
+
+    .screen-body-item {
+        padding: 0;
+    }
+    .painted{
+        margin-left:34%;
+    }
+}
+/*אייקונים ראשיים************************************************************************/
+.painted {
+ margin-top:20px;
+ margin-left:11%;
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    background-color: white;
+    box-shadow: -3px -3px 25px -3px #888;
+}
+.painted img{
+margin-left:25px;
+margin-top:33px;
+
+}
+.line_top {
+    width: 96%;
+    height: 9px;
+    background-color: #d5b3a2;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-left:8%;
+}
+#p1{
+    background-color:#d5b3a2;/*וורו*/
+}
+#p2{ /*ירוק*/
+    background-color: #99b8b3;
+}
+#p3 { /*צהוב*/
+    background-color: #f0e288;
+}
+#p4{
+    background-color:#d5b3a2;
+}
+#p5{
+    background-color: #99b8b3;
+}
+#p6 {
+    background-color: #f0e288;
+}
+.painted img + span {
+    position: relative;
+    left: 180px;
+    bottom: 46px;
+    font-family: 'Segoe UI Light', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 28pt;
+}

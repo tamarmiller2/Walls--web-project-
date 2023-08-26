@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>
+    </SchemaVersion>
+    <ProjectGuid>{8538B2D9-0833-4F4C-90AC-58AF5DC1CE37}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>walls</RootNamespace>
+    <AssemblyName>walls</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <MyType>Custom</MyType>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44353</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>walls.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>walls.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="favicon.ico" />
+    <Content Include="pages\1open\pic\kids1.jpg" />
+    <Content Include="pages\1open\pic\kids13.jpeg" />
+    <Content Include="pages\1open\pic\kitchen 23.jpg" />
+    <Content Include="pages\1open\pic\living24.jpg" />
+    <Content Include="pages\1open\pic\teens28.jpg" />
+    <Content Include="pages\cont\cont.css" />
+    <Content Include="pages\cont\cont.html" />
+    <Content Include="pages\coolLinks\HtmlPage1.html" />
+    <Content Include="pages\coolLinks\cool_links.css" />
+    <Content Include="pages\1open\kitchen8.jpg" />
+    <Content Include="pages\1open\open.css" />
+    <Content Include="pages\1open\open.html" />
+    <Content Include="pages\1open\open.js" />
+    <Content Include="pages\1open\pic\32 %282%29.jpg" />
+    <Content Include="pages\1open\pic\32.jpg" />
+    <Content Include="pages\1open\pic\321.jpg" />
+    <Content Include="pages\1open\pic\325.jpg" />
+    <Content Include="pages\1open\pic\kitchen8.jpg" />
+    <Content Include="pages\1open\pic\liv3.jpg" />
+    <Content Include="pages\1open\pic\sk, rhc.png" />
+    <Content Include="pages\1open\pic\wallsLogo.png" />
+    <Content Include="pages\1open\pic\דלת צבועה.png" />
+    <Content Include="pages\1open\pic\ילד15 %282%29.jpg" />
+    <Content Include="pages\1open\pic\ילד15.jpg" />
+    <Content Include="pages\1open\pic\ילד4.jpg" />
+    <Content Include="pages\1open\pic\מטבח25 %282%29.jpg" />
+    <Content Include="pages\1open\pic\מטבח25.jpg" />
+    <Content Include="pages\1open\pic\מטבח8.jpg" />
+    <Content Include="pages\1open\pic\מטבע.png" />
+    <Content Include="pages\1open\pic\סלון13.jpg" />
+    <Content Include="pages\1open\pic\סלון21.jpg" />
+    <Content Include="pages\1open\pic\פרח צבוע.png" />
+    <Content Include="pages\1open\pic\שינה1 %282%29.jpg" />
+    <Content Include="pages\1open\pic\שינה1.jpg" />
+    <Content Include="pages\2home\img\door.png" />
+    <Content Include="pages\2home\img\flower2.png" />
+    <Content Include="pages\2home\img\icon money.png" />
+    <Content Include="pages\2home\nav.css" />
+    <Content Include="pages\2home\nav.html" />
+    <Content Include="pages\2home\wallsLogo.png" />
+    <Content Include="pages\about\about.css" />
+    <Content Include="pages\about\about.html" />
+    <Content Include="pages\shopping\kitchen\contact\contact.css" />
+    <Content Include="pages\shopping\kitchen\contact\contact.html" />
+    <Content Include="pages\general footer.css" />
+    <Content Include="pages\houses\house.css" />
+    <Content Include="pages\houses\house.html" />
+    <Content Include="pages\pay\48hours.jpg" />
+    <Content Include="pages\pay\pay.css" />
+    <Content Include="pages\pay\pay.html" />
+    <Content Include="pages\pay\paypic.png" />
+    <Content Include="pages\shopping\baby\baby10 %282%29.jpg" />
+    <Content Include="pages\shopping\baby\baby11 %282%29.jpg" />
+    <Content Include="pages\shopping\baby\baby11 %283%29.jpg" />
+    <Content Include="pages\shopping\baby\baby2 %282%29.jpg" />
+    <Content Include="pages\shopping\baby\baby5 %282%29.jpg" />
+    <Content Include="pages\shopping\baby\baby5 %283%29.jpg" />
+    <Content Include="pages\shopping\baby\baby5.jpg" />
+    <Content Include="pages\shopping\baby\baby6 %282%29.jpg" />
+    <Content Include="pages\shopping\baby\baby6.jpg" />
+    <Content Include="pages\shopping\baby\baby9 %282%29.jpg" />
+    <Content Include="pages\shopping\bigImg.js" />
+    <Content Include="pages\shopping\galery.css" />
+    <Content Include="pages\shopping\garden 1\gar1.png" />
+    <Content Include="pages\shopping\garden 1\gar2.png" />
+    <Content Include="pages\shopping\garden 1\gar22.png" />
+    <Content Include="pages\shopping\garden 1\gar3.jpg" />
+    <Content Include="pages\shopping\garden 1\gar33.png" />
+    <Content Include="pages\shopping\garden 1\gar4.png" />
+    <Content Include="pages\shopping\garden 1\gar44.png" />
+    <Content Include="pages\shopping\garden 1\gar6.jpg" />
+    <Content Include="pages\shopping\garden 1\gar7.jpg" />
+    <Content Include="pages\shopping\garden 1\gardw1.png" />
+    <Content Include="pages\shopping\garden 1\gardw3.png" />
+    <Content Include="pages\shopping\icons\buybbb.png" />
+    <Content Include="pages\shopping\icons\buyicon.ico" />
+    <Content Include="pages\shopping\icons\location3.ico" />
+    <Content Include="pages\shopping\icons\mail1.ico" />
+    <Content Include="pages\shopping\icons\phone1.ico" />
+    <Content Include="pages\shopping\garden2\כרית נדנדה.png" />
+    <Content Include="pages\shopping\garden2\מדורצ גן מחמם שולחני.png" />
+    <Content Include="pages\shopping\garden2\מערכת ישיבה מפוארת דגם גמייקה.jpg" />
+    <Content Include="pages\shopping\garden2\מערכת ישיבה ראטן.jpg" />
+    <Content Include="pages\shopping\garden2\מקרן חימום.jpg" />
+    <Content Include="pages\shopping\garden2\נד דגן.jpg" />
+    <Content Include="pages\shopping\garden2\נדנדה לוציאנו.png" />
+    <Content Include="pages\shopping\garden2\סט סלוני דו מושבי.png" />
+    <Content Include="pages\shopping\garden2\ערסל זוגי סן מרקוס.jpg" />
+    <Content Include="pages\shopping\garden2\ערסל יחיד סהר שחור.jpg" />
+    <Content Include="pages\shopping\garden2\פטריית חימום גז פירמידה.png" />
+    <Content Include="pages\shopping\garden2\פינת ישיבה דו מושבית.jpg" />
+    <Content Include="pages\shopping\garden2\קפה ביסטרו.png" />
+    <Content Include="pages\shopping\garden2\קפה ברה לגינה.jpg" />
+    <Content Include="pages\shopping\garden2\קפה עגולה מור עם ברונזה כריות.jpg" />
+    <Content Include="pages\shopping\iconsMenu\garden.png" />
+    <Content Include="pages\shopping\iconsMenu\kitchen.png" />
+    <Content Include="pages\shopping\iconsMenu\teen.png" />
+    <Content Include="pages\shopping\iconsMenu\sleep.png" />
+    <Content Include="pages\shopping\iconsMenu\children.png" />
+    <Content Include="pages\shopping\iconsMenu\baby.png" />
+    <Content Include="pages\shopping\iconsMenu\sleep text.png" />
+    <Content Include="pages\shopping\icons\buying.jpg" />
+    <Content Include="pages\shopping\icons\iconShe.png" />
+    <Content Include="pages\shopping\icons\iconShekel.png" />
+    <Content Include="pages\shopping\icons\qustionIcon.png" />
+    <Content Include="pages\shopping\icons\XXXP.png" />
+    <Content Include="pages\shopping\icons\XXXRED.png" />
+    <Content Include="pages\shopping\imgBrands\brand10.png" />
+    <Content Include="pages\shopping\imgBrands\brand11.png" />
+    <Content Include="pages\shopping\imgBrands\brand12.png" />
+    <Content Include="pages\shopping\imgBrands\brand13.png" />
+    <Content Include="pages\shopping\imgBrands\brand14.png" />
+    <Content Include="pages\shopping\imgBrands\brand15.png" />
+    <Content Include="pages\shopping\imgBrands\brand17.png" />
+    <Content Include="pages\shopping\imgBrands\brand18.png" />
+    <Content Include="pages\shopping\imgBrands\brand19.png" />
+    <Content Include="pages\shopping\imgBrands\brand21.png" />
+    <Content Include="pages\shopping\imgBrands\brand3.png" />
+    <Content Include="pages\shopping\imgBrands\brand5.png" />
+    <Content Include="pages\shopping\imgBrands\brand6.jpg" />
+    <Content Include="pages\shopping\imgBrands\brands.png" />
+    <Content Include="pages\shopping\imgBrands\brans2.png" />
+    <Content Include="pages\shopping\kids1\kid1 %282%29.jpg" />
+    <Content Include="pages\shopping\kids1\kid1.png" />
+    <Content Include="pages\shopping\kids1\kid10 %282%29.png" />
+    <Content Include="pages\shopping\kids1\kid10.png" />
+    <Content Include="pages\shopping\kids1\kid12 %282%29.png" />
+    <Content Include="pages\shopping\kids1\kid12.png" />
+    <Content Include="pages\shopping\kids1\kid13 %282%29.jpg" />
+    <Content Include="pages\shopping\kids1\kid13.png" />
+    <Content Include="pages\shopping\kids1\kid14 %282%29.png" />
+    <Content Include="pages\shopping\kids1\kid14.png" />
+    <Content Include="pages\shopping\kids1\kid16 %282%29.jpg" />
+    <Content Include="pages\shopping\kids1\kid16.png" />
+    <Content Include="pages\shopping\kids1\kid17 %282%29.jpg" />
+    <Content Include="pages\shopping\kids1\kid17.png" />
+    <Content Include="pages\shopping\kids1\kid18 %282%29.png" />
+    <Content Include="pages\shopping\kids1\kid18.png" />
+    <Content Include="pages\shopping\kids1\kid2.png" />
+    <Content Include="pages\shopping\kids1\kid5.png" />
+    <Content Include="pages\shopping\kids1\kid6.png" />
+    <Content Include="pages\shopping\kids1\kid7.png" />
+    <Content Include="pages\shopping\kids1\kid8.png" />
+    <Content Include="pages\shopping\kids\ילד פתיח.jpg" />
+    <Content Include="pages\shopping\kids\ילד10.jpg" />
+    <Content Include="pages\shopping\kids\ילד11.jpg" />
+    <Content Include="pages\shopping\kids\ילד12.jpg" />
+    <Content Include="pages\shopping\kids\ילד14.jpg" />
+    <Content Include="pages\shopping\kids\ילד15.jpg" />
+    <Content Include="pages\shopping\kids\ילד16.jpg" />
+    <Content Include="pages\shopping\kids\ילד2.jpg" />
+    <Content Include="pages\shopping\kids\ילד3.jpg" />
+    <Content Include="pages\shopping\kids\ילד6.jpg" />
+    <Content Include="pages\shopping\kids\ילד7.jpg" />
+    <Content Include="pages\shopping\kids\ילד8.jpg" />
+    <Content Include="pages\shopping\kitchen\kit %282%29.png" />
+    <Content Include="pages\shopping\kitchen\kit.png" />
+    <Content Include="pages\shopping\kitchen\kit1.png" />
+    <Content Include="pages\shopping\kitchen\kit15 %282%29.jpg" />
+    <Content Include="pages\shopping\kitchen\kit15.png" />
+    <Content Include="pages\shopping\kitchen\kit16 %282%29.jpg" />
+    <Content Include="pages\shopping\kitchen\kit16.png" />
+    <Content Include="pages\shopping\kitchen\kit17.png" />
+    <Content Include="pages\shopping\kitchen\kit2.png" />
+    <Content Include="pages\shopping\kitchen\kit30.png" />
+    <Content Include="pages\shopping\kitchen\kit4.png" />
+    <Content Include="pages\shopping\kitchen\kit40 %282%29.png" />
+    <Content Include="pages\shopping\kitchen\kit40.png" />
+    <Content Include="pages\shopping\kitchen\kit44.png" />
+    <Content Include="pages\shopping\kitchen\kit5 %282%29.png" />
+    <Content Include="pages\shopping\kitchen\kit5.png" />
+    <Content Include="pages\shopping\kitchen\kit6 %282%29.png" />
+    <Content Include="pages\shopping\kitchen\kit6.png" />
+    <Content Include="pages\shopping\kitchen\kitchen33 %282%29.jpg" />
+    <Content Include="pages\shopping\kitchen\kitchen33.png" />
+    <Content Include="pages\shopping\living\LIV11.png" />
+    <Content Include="pages\shopping\living\LIV12 %282%29.jpg" />
+    <Content Include="pages\shopping\living\LIV12.png" />
+    <Content Include="pages\shopping\living\LIV13 %282%29.jpg" />
+    <Content Include="pages\shopping\living\LIV13.png" />
+    <Content Include="pages\shopping\living\liv15 %282%29.jpg" />
+    <Content Include="pages\shopping\living\liv15.png" />
+    <Content Include="pages\shopping\living\LIV6.png" />
+    <Content Include="pages\shopping\living\LIV7.png" />
+    <Content Include="pages\shopping\living\LIV8.png" />
+    <Content Include="pages\shopping\living\LIV9.png" />
+    <Content Include="pages\shopping\living\side_nav.html" />
+    <Content Include="pages\shopping\painted\baby.png" />
+    <Content Include="pages\shopping\painted\garden.png" />
+    <Content Include="pages\shopping\painted\kid.png" />
+    <Content Include="pages\shopping\painted\kit.png" />
+    <Content Include="pages\shopping\painted\liv1.jpg" />
+    <Content Include="pages\shopping\painted\living.png" />
+    <Content Include="pages\shopping\painted\sleep2.png" />
+    <Content Include="pages\shopping\shop.css" />
+    <Content Include="pages\shopping\shop.html" />
+    <Content Include="pages\shopping\iconsMenu\living.png" />
+    <Content Include="pages\shopping\garden2\דו מושבית גגון.jpg" />
+    <Content Include="pages\shopping\garden2\מערכת יAHCV PHB,H, SDO STKX.png" />
+    <Content Include="pages\shopping\sleep\room1.png" />
+    <Content Include="pages\shopping\sleep\sleep10.png" />
+    <Content Include="pages\shopping\sleep\sleep2.png" />
+    <Content Include="pages\shopping\sleep\sleep3.png" />
+    <Content Include="pages\shopping\sleep\sleep4.png" />
+    <Content Include="pages\shopping\sleep\sleep5.png" />
+    <Content Include="pages\shopping\sleep\sleep6.png" />
+    <Content Include="pages\shopping\sleep\sleep7.png" />
+    <Content Include="pages\shopping\sleep\sleep8.png" />
+    <Content Include="pages\shopping\sleep\sleep9.png" />
+    <Content Include="pages\shopping\stars\HtmlPage1.html" />
+    <Content Include="pages\shopping\stars\play.js" />
+    <Content Include="pages\shopping\stars\star.jpg" />
+    <Content Include="pages\shopping\stars\StyleSheet1.css" />
+    <Content Include="pages\shopping\stars\Windswept-synth-guitar-and-soft-strings.mp3" />
+    <Content Include="pages\shopping\stars\xwhite.png" />
+    <Content Include="pages\shopping\stars\yStar.jpg" />
+    <Content Include="pages\shopping\living\side_nav.css" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\MyExtensions\MyWebExtension.vb">
+      <VBMyExtensionTemplateID>Microsoft.VisualBasic.Web.MyExtension</VBMyExtensionTemplateID>
+      <VBMyExtensionTemplateVersion>1.0.0.0</VBMyExtensionTemplateVersion>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="packages.config" />
+    <Content Include="pages\1open\pic\aaa.png" />
+    <Content Include="pages\shopping\baby\bab1.png" />
+    <Content Include="pages\shopping\baby\baby2.png" />
+    <Content Include="pages\shopping\baby\baby5.png" />
+    <Content Include="pages\shopping\baby\baby8.png" />
+    <Content Include="pages\shopping\baby\baby7.png" />
+    <Content Include="pages\shopping\baby\baby9.png" />
+    <Content Include="pages\shopping\baby\baby10.png" />
+    <Content Include="pages\shopping\baby\baby11.png" />
+    <Content Include="pages\1open\pic\kitchen!1.png" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>54291</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44353/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
